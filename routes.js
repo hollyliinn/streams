@@ -8,10 +8,13 @@ var Router = {
         // Home page 
         app.get('/', controllers.Home.index);
         
-        // Users
+        // About page
+        app.get('/about', controllers.About.index);
+        
+        // Users page
         app.get('/users', controllers.Users.index);
     }
     
 };
 
-module.exports = Router;
+module.exports = Router; 
