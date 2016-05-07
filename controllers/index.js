@@ -10,6 +10,6 @@ var Search = require('./search');
 module.exports = {
     About: About,
     Home: Home,
-    Users: Users
+    Users: Users,
     Search: Search
 };
