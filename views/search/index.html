@@ -1,8 +1,23 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
-<div class="page header">
+<div class="jumbotron">
     <h1>Search</h1>
-    <p> This is my search page. </p>
+    <p class="lead">Search for a hashtag</p>
+    
+    <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="hashtag">Hashtag</label>
+          <input type="text" class="form-control" id="hashtag" placeholder="#nyc"
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+    </form>
+    
+    <h4>Search Results</h4>
+    <div class="panel panel-default">
+        <div class="panel body">
+            Basic panel
+        </div>
+    </div>
 </div>
 {%  endblock %}
