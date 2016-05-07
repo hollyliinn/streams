@@ -2,7 +2,7 @@
 var About = {
     
     index: function(req, res) {
-        res.send('about/index');
+        res.render('about/index');
     }
     
 };
