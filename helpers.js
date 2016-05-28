@@ -3,7 +3,7 @@
 // Global dependencies
 var Twitter = require('twitter');
 
-var Helpers -{};
+var Helpers = {};
 
 Helpers.getTwitterClient = function() {
     // TODO: This is super insecure.
