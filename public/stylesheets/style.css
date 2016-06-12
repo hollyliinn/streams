@@ -1,9 +1,8 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   padding-top: 70px;
-  padding-bottom: 30px
+  padding-bottom: 30px;
 }
+
 .tweet-item {
   border: 1px solid #ccc;
   padding: 10px;
@@ -47,4 +46,3 @@ body {
   width: 64px;
   height: 64px;
 }
-

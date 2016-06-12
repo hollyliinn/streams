@@ -15,20 +15,20 @@
 
 {% if searchTerm %}
 
-{% if numItems ==0 %}
-<h4>No results for "{{ searchTerm }}"</h4>
-{% else %}
-<h4>Search for "{{ searchTerm }}" ({{ numItems }})</h4>
-<hr>
+  {% if numItems == 0 %}
+  <h4>No results for "{{ searchTerm }}"</h4>
+  {% else %}
+  <h4>Search for "{{ searchTerm }}" ({{ numItems }})</h4>
+  <hr>
 
-<div class="container">
-  <div class="row tweets-container">
-    {%  for item in items %}
-      {% include "search/_item.html" %}
-    {% endfor %}
+  <div class="container">
+    <div class="row tweets-container">
+      {% for item in items %}
+        {% include "search/_item.html" %}
+      {% endfor %}
+    </div>
   </div>
-</div>
-{% endif %}
+  {% endif %}
 
 {% endif %}
 
